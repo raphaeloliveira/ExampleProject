@@ -84,6 +84,7 @@
 		E61E8D4A321FF14485A036C51BE68E49 /* Quick-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D6DD3A41394A7B90F43BAA4CF03E61B0 /* Quick-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E6E7B15FAD6C56681511813DB2666478 /* AssertionRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8267CC416814DC9E4AE9E3E623F3A8 /* AssertionRecorder.swift */; };
 		E735A506AC22917F1715CDADE2CEB492 /* QuickSpec.h in Headers */ = {isa = PBXBuildFile; fileRef = 377322D01DA3AC5872493958B1CAAF96 /* QuickSpec.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA5AF71C1BFBF5AB0017AA45 /* MyFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5AF71B1BFBF5AB0017AA45 /* MyFile.swift */; };
 		F10FD3129985704FA1610F84FB98EDF5 /* Stringers.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC2F5620708FEA802ADA730E16EAD4E /* Stringers.swift */; };
 		F1D4A8A1FC68EFA7F45945908D70A352 /* BeNil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0333273284EF0E078E9E1A222C8B972C /* BeNil.swift */; };
 		F2F5F79B06B81F799DF592C273AF40C8 /* ExampleHooks.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73EB25322382B686A7FA67B426F2BB4 /* ExampleHooks.swift */; };
@@ -233,6 +234,7 @@
 		E351727CD07BB90B2A3CAE2C2433F6C5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		E4AF7A375BF533D6734A50476030726D /* FailureMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FailureMessage.swift; path = Nimble/FailureMessage.swift; sourceTree = "<group>"; };
 		E8E03A62A0C7274FFAA612902B3999B1 /* DSL+Wait.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DSL+Wait.swift"; path = "Nimble/DSL+Wait.swift"; sourceTree = "<group>"; };
+		EA5AF71B1BFBF5AB0017AA45 /* MyFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyFile.swift; sourceTree = "<group>"; };
 		EAF279EF20780A1B6F00574FED6EBCD5 /* AsyncMatcherWrapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AsyncMatcherWrapper.swift; path = Nimble/Wrappers/AsyncMatcherWrapper.swift; sourceTree = "<group>"; };
 		EC308A130D40E74471D41AE77CCA3A08 /* SuiteHooks.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SuiteHooks.swift; path = Quick/Hooks/SuiteHooks.swift; sourceTree = "<group>"; };
 		EC90E776E9D08E990BCC7B3C4A3FBE7D /* Pods-ExampleProject_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ExampleProject_Tests-frameworks.sh"; sourceTree = "<group>"; };
@@ -486,6 +488,7 @@
 			isa = PBXGroup;
 			children = (
 				306C08A1D2CDCCA8DF24F9EB786CF8F0 /* ReplaceMe.swift */,
+				EA5AF71B1BFBF5AB0017AA45 /* MyFile.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -721,6 +724,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = MyOrganization;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -784,6 +788,7 @@
 			files = (
 				39F7B2F3A76CF78306AADE7F0E1CD734 /* ExampleProject-dummy.m in Sources */,
 				E288B939374161460E0E3D4DB8897E80 /* ReplaceMe.swift in Sources */,
+				EA5AF71C1BFBF5AB0017AA45 /* MyFile.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
