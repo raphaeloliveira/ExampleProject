@@ -22,7 +22,7 @@ pod "ExampleProject"
 
 ## Author
 
-Raphael Oliveira, raphael@mobileden.com.au
+Raphael Oliveira, raphaelfpoliveira@gmail.com
 
 ## License
 
